@@ -45,18 +45,25 @@
 |---|---|---|
 | OPNsense | Protectli FW4B (bare metal) | Firewall, VLANs, NAT |
 | Proxmox cluster | 2× Lenovo M920Q | Hypervisor |
+| Beelink Mini S12 Pro | Bare metal (Ubuntu) | Dedicated Plex host |
+| Home Assistant OS | Proxmox VM | Home automation |
 | Pi-Hole (primary) | Proxmox LXC | Network-wide ad blocking |
 | Pi-Hole (secondary) | Proxmox LXC | Network-wide ad blocking |
 | Pi-Hole (tertiary) | Raspberry Pi 4B | DNS redundancy |
-| Home Assistant | Proxmox LXC | Home automation |
 | Unifi Network App | Proxmox LXC | Wireless management |
+| Omada Controller | Proxmox LXC | Switch management |
+| Paperless-ngx | Proxmox LXC | Document management |
+| Jellyfin | Proxmox LXC (Docker) | Media server |
+| Jellystat | Proxmox LXC (Docker) | Jellyfin analytics |
+| Tautulli | Proxmox LXC (Docker) | Plex analytics |
+| Agregarr / Bazarr / Prowlarr / Radarr / Sonarr | Proxmox LXC (Docker) | Media management |
+| Sabnzbd | Proxmox LXC (Docker) | Usenet downloader |
+| Tailscale | Proxmox LXC (Debian) | Site-to-site VPN |
+| Uptime Kuma | Proxmox LXC (Docker) | Service monitoring |
 | Plex | Beelink (Docker) | Media server |
-| Minecraft | Beelink (Docker) | Game server |
 | Overseerr (Seerr) | Beelink (Docker) | Media requests |
 | SWAG | Beelink (Docker) | Reverse proxy, DDNS, SSL |
-| Radarr / Sonarr / Bazarr | Proxmox LXC (Docker) | Media management |
-| Prowlarr | Proxmox LXC (Docker) | Indexer management |
-| Sabnzbd | Proxmox LXC (Docker) | Usenet downloader |
+| Minecraft | Beelink (Docker) | Game server |
 | RetroPie | Raspberry Pi 4B | Retro gaming |
 
 ---
@@ -112,14 +119,14 @@
 | Network infrastructure (phases 1–4) | ~$1,500 |
 | Raspberry Pi 4B + accessories | ~$100 |
 | Lenovo M920Q ×2 | ~$400 |
-| Synology DS923+ + drives | ~$1,500 |
+| Synology DS923+ + drives | ~$2,300 |
 | Beelink Mini S12 Pro | ~$170 |
 | Nvidia Shield Pro | ~$200 |
 | LG C4 OLED 65" | ~$1,500 |
 | Cameras + NVR | ~$400 |
 | 21u rack + SG2428LP switch | ~$400 |
 | Misc (RPi, ratgdo, KVM, etc.) | ~$300 |
-| **Total (approx.)** | **~$6,500+** |
+| **Total (approx.)** | **~$7,300+** |
 
 ---
 
